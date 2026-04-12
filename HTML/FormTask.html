@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h3 style="text-align: center;">Please complete all the information below.</h3>
+    <fieldset>
+            <legend>Sign Up Form</legend>
+            <form>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <label for="name"><strong>Name: </strong></label><br>
+                            <input type="text" id="name" name="firstname" placeholder="First Name">
+                        </td>
+                        <td><br>
+                            <input type="text" id="name" name="lastname" placeholder="Last Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>
+                            <label for="email"><strong>Email: </strong></label><br>
+                            <input type="email" id="email" name="email" placeholder="xyz@example.com">
+                        </td>
+                        <td><br>
+                            <label for="phone"><strong>Contact: </strong></label><br>
+                            <input type="text" id="phone" name="contact" placeholder="Ex.7894561230" pattern="\d{10}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>
+                            <label for="pass"><strong>Set password: </strong></label><br>
+                            <input type="password" id="pass" name="password" minlength="6" placeholder="Set password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>
+                            <label for="file"><strong>Profile: </strong></label><br>
+                            <input type="file" id="file" name="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+            
+    </fieldset>
+
+</body>
+</html>

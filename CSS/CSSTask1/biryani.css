@@ -1,0 +1,13 @@
+@import url(./fighterJet.css);
+@import url(./lassi.css);
+#list1{
+    color: rgb(181, 101, 21);
+}
+
+#list1 > #paneer{
+    color: rgb(12, 137, 137);
+}
+
+#list1 > #list2{
+    color: rgb(35, 0, 35);
+}
